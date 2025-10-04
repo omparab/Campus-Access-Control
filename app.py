@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 # Page configuration
 st.set_page_config(
     page_title="Campus Access Control",
-    page_icon="🎓",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -86,7 +86,7 @@ if 'redirect' not in st.session_state:
     st.session_state.redirect = None
 
 # Title and subtitle
-st.title("🎓 Campus Access Control System")
+st.title("Campus Access Control System")
 st.markdown('<p class="subtitle">Select an access control option to proceed</p>', unsafe_allow_html=True)
 
 # Create three columns for the options
@@ -142,6 +142,5 @@ st.markdown("---")
 st.markdown("""
     <div style='text-align: center; color: #888; padding: 2rem 0;'>
         <p><strong>Campus Access Control System v1.0</strong></p>
-        <p>For support, contact: security@campus.edu</p>
     </div>
 """, unsafe_allow_html=True)
