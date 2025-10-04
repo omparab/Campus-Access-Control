@@ -125,12 +125,12 @@ with col3:
     if st.button("Launch License Plate Verification", key="btn3", use_container_width=True):
         st.session_state.redirect = LICENSE_PLATE_URL
 
-# Handle redirect using JavaScript
+# Handle redirect using JavaScript - opens in new tab
 if st.session_state.redirect:
     components.html(
         f"""
         <script>
-            window.parent.location.href = "{st.session_state.redirect}";
+            window.open("{st.session_state.redirect}", "_blank");
         </script>
         """,
         height=0,
