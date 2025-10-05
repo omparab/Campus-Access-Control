@@ -78,7 +78,7 @@ st.markdown("""
 
 # URLs for redirection (replace these with your actual URLs)
 ID_CARD_URL = "https://patta-detection.streamlit.app/"
-IDENTITY_URL = "https://identity-recognition-system.streamlit.app/"
+IDENTITY_URL = "https://identity-recognition.streamlit.app/"
 LICENSE_PLATE_URL = "https://license-plate-test-7szorvfhkefe6wjavtbx9f.streamlit.app/"
 
 # Initialize session state for tracking redirects
